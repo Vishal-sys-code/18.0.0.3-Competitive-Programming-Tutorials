@@ -11,6 +11,9 @@ void Input_Output() {
 
 int main() {
 	Input_Output();
-	cout << "HELLO WORLD" << endl;
+	int a, b;
+    cin>>a>>b;
+    int sum = a+b;
+    cout << "SUM :" << sum << endl;
 	return 0;
 }
